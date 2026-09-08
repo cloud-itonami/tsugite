@@ -8,7 +8,7 @@
   measurable and names the next wave.
 
   Pure fns; reuses tsugite.methods.analyze for the loader. Portable .cljc."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tsugite.methods.analyze :as analyze]))
 
 ;; honest external denominators

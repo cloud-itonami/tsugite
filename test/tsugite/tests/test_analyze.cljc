@@ -16,7 +16,7 @@
   port is a separate unit, mirroring the rasen/inochi precedent). All the PURE analyze
   assertions — including the G1 no-person-tracking test — are ported 1:1."
   (:require [clojure.test :refer [deftest is testing run-tests]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.set]
             [clojure.java.io :as io]
             [tsugite.methods.analyze :as analyze]))

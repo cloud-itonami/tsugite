@@ -22,7 +22,7 @@
   appends to a local file. G1: the ledger is a CONTINUITY map (safe passage +
   protection + revitalization) at AGGREGATE/COLLECTIVE scale only — NEVER person-
   tracking (no individual / location / biometric), never a border-enforcement aid."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [clojure.java.io :as io])))
 
 (defn add [entity attr value] [":db/add" entity attr value])

@@ -4,7 +4,7 @@
 (ns tsugite.tests.test-kotoba
   (:require [tsugite.methods.kotoba :as k]
             [tsugite.methods.autorun :as auto]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is run-tests]]
             [clojure.java.io :as io]))
 

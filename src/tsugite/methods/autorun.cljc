@@ -14,7 +14,7 @@
   stable → resume-safe. IDEMPOTENT-BY-CONTENT: a beat whose ground datoms equal the previous
   beat's is a NO-OP. No-server-key: appends to a local file only, no network I/O.
   G1: a CONTINUITY map at AGGREGATE scale, never person-tracking."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tsugite.methods.datom-emit :as de]
             [tsugite.methods.kotoba :as k]
             #?(:clj [clojure.java.io :as io])))

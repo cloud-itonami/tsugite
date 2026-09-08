@@ -1,7 +1,7 @@
 (ns tsugite.tests.test-coverage
   "tsugite 継ぎ手 — coverage-report tests (ADR-2606073800). 1:1 Clojure port of tests/test_coverage.py."
   (:require [clojure.test :refer [deftest is run-tests]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.set]
             [clojure.java.io :as io]
             [tsugite.methods.analyze :as analyze]

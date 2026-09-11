@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsugite 継ぎ手 — autonomous heartbeat: load the peoples graph → append GROUND datoms.
 (ns tsugite.methods.autorun
   "autorun.cljc — tsugite 継ぎ手 deterministic heartbeat (ADR-2606073800, inochi/asobi pattern).

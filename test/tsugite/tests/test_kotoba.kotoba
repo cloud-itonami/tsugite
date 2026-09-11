@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsugite 継ぎ手 — peoples-continuity-ledger persistence + heartbeat tests.
-;; Run:  bb --classpath 20-actors 20-actors/tsugite/tests/test_kotoba.cljc
+;; Run:  kbb --classpath 20-actors 20-actors/tsugite/tests/test_kotoba.cljc
 (ns tsugite.tests.test-kotoba
   (:require [tsugite.methods.kotoba :as k]
             [tsugite.methods.autorun :as auto]

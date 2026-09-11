@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsugite 継ぎ手 — tests for the double-jeopardy (continuity × fragility) intersection lens.
-;; Run:  bb --classpath 20-actors 20-actors/tsugite/tests/test_double_jeopardy.cljc
+;; Run:  kbb --classpath 20-actors 20-actors/tsugite/tests/test_double_jeopardy.cljc
 (ns tsugite.tests.test-double-jeopardy
   "Tests for double-jeopardy — collectives bearing BOTH displacement pressure (continuity) AND a
   fragile people↔language coupling (fragility), the product surfacing where the two strands compound.

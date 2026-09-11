@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsugite 継ぎ手 — peoples-continuity graph DATOM-LOG writer (content-addressed commit-DAG).
 (ns tsugite.methods.kotoba
   "kotoba.cljc — tsugite 継ぎ手 append-only PEOPLES-CONTINUITY LEDGER writer

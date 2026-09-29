@@ -51,7 +51,7 @@ intangible-culture preservation.
 
 ```
 20-actors/tsugite/
-├── CLAUDE.md                           # this file
+├── AGENTS.md                           # this file
 ├── manifest.jsonld                     # actor manifest (3 cells, 8 gates)
 ├── data/
 │   └── seed-peoples-graph.kotoba.edn   # real PUBLIC AGGREGATE collectives/languages + 縁
